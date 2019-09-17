@@ -1,0 +1,46 @@
+body {
+    padding: 2rem 0;
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+    width: 100%;
+    background-color: #FFB3B3; 
+    margin: 0;
+  }
+  
+  main {
+    background: white;
+    width: 90%;
+    margin: auto;
+    border-radius: 5px;
+    padding: 2rem 0;
+  }
+  
+  h1 {
+    margin: 3rem 1rem 6rem 1rem;
+  }
+  
+  h2 {
+    margin: auto 2rem;
+    text-align: center;
+  }
+  
+  footer {
+    margin: 3rem;
+    font-size: 1.2rem;
+  }
+
+  .artObject {
+    max-width: 80%;
+    max-height: 20rem;
+    margin: 1rem;
+  }
+
+  
+  #gallery {
+    display: flex; 
+    flex-flow: row wrap; 
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+
