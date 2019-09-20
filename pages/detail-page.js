@@ -23,7 +23,12 @@ function submitComment() {
     comment.classList.add("comment")
     comment.appendChild(h3)
     comment.appendChild(p)
-    console.log(name)
+        ///console.log(name)
+
+    const commentSection = document.getElementById("comments")
+    comment.appendChild(comment)
+    inputField.value = null
+    textArea.value = null
 }
 
 // 1. Above I'm declaring a variable for both inputField (and then the same thing goes
@@ -45,3 +50,12 @@ function submitComment() {
 /// instead of doing it like this: <section> class = "comment"></section>- in html
 /// 12. Then I'm appendChild(), both the name + msg of the person who puts it in. I'm appending
 /// it to the exisiting parent class, which already have a comment there (?)
+/// 13. console.log(commentSection)
+/// 14. Select this element using the 
+/// 15. getElementById-method and store it in the variable commentSection.
+/// 16. Console and see if it works in the browser - check
+/// 17.Use the appendChild-method on commentSection to 
+///    add your comment-variable to commentSection.
+/// 18. Let's reset the input fields!
+///     Reassign the value-property of inputField to null.
+///     Reassign the value-property of textArea to null
