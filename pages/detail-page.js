@@ -26,7 +26,7 @@ function submitComment() {
         ///console.log(name)
 
     const commentSection = document.getElementById("comments")
-    comment.appendChild(comment)
+    commentSection.appendChild(comment)
     inputField.value = null
     textArea.value = null
 }
